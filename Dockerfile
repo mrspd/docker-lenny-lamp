@@ -1,4 +1,4 @@
-FROM lenny
+FROM mrspd/lenny
 MAINTAINER mrspd <mrspd@ya.ru>
 CMD ["/bin/bash", "-l"]
 RUN apt-get update
